@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar";
 import Hero from "../../components/Hero";
 import { CatalogSection } from "../../components/Catalog";
 import SiteFooter from "../../components/Footer";
+import { BrandInfoSection } from "../../components/Info";
 
 export default function Home() {
   return (
@@ -11,9 +12,9 @@ export default function Home() {
         <Navbar/>
         <Hero />
       </div>
+      <BrandInfoSection />
       <CatalogSection />
       <SiteFooter />
-      {/* Add more components or content here as needed */}
     </main>
   );
 }
