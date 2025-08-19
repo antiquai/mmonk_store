@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Navbar from "../../components/Navbar";
 import Hero from "../../components/Hero";
-// import { CatalogSection } from "../../components/Catalog";
-import { CatalogSection } from "../../components/Categore_TEST";
+import { CatalogSection } from "../../components/Catalog";
 import SiteFooter from "../../components/Footer";
 import { BrandInfoSection } from "../../components/Info";
 
