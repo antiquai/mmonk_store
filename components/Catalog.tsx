@@ -26,6 +26,16 @@ export const PRODUCTS: Product[] = [
     colors: ["#0a0a0a"],
     sizes: ["S","M","L", "XL"],
   },
+  {
+    id: "ape bath",
+    name: "Ape Bath Tee",
+    fit: "Loose",
+    price: 29,
+    image: '/design/des_6.png',
+    tag: "New",
+    colors: ["#0a0a0a"],
+    sizes: ["M","L", "XL"],
+  },
     {
     id: "mm-crew-kōan",
     name: "Heart Monkey",
