@@ -15,7 +15,7 @@ const INFO_BLOCKS: InfoBlock[] = [
   },
   {
     title: "Inspiration",
-    text: "Here will be the inspiration and references that shaped our vision. (placeholder)",
+    text: "The vast philosophy of Buddhist culture raises the question: Why do so few people wish to delve into the depths of this profound story? We decided to introduce people to the culture of Asian religion through clothing, so they can immerse themselves in a world of profound philosophy, beautiful traditions, and remarkable people.",
     image: '/sb.jpg',
   },
 ];

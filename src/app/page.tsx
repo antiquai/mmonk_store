@@ -3,6 +3,7 @@ import Hero from "../../components/Hero";
 import { CatalogSection } from "../../components/Catalog";
 import SiteFooter from "../../components/Footer";
 import { BrandInfoSection } from "../../components/Info";
+import DonateCard from "../../components/DonateCard";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </div>
       <BrandInfoSection />
       <CatalogSection />
+      <DonateCard />
       <SiteFooter />
     </main>
   );
