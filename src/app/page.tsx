@@ -4,6 +4,7 @@ import { CatalogSection } from "../../components/Catalog";
 import SiteFooter from "../../components/Footer";
 import { BrandInfoSection } from "../../components/Info";
 import DonateCard from "../../components/DonateCard";
+import DetailedView from "../../components/DetailedView";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <BrandInfoSection />
       <CatalogSection />
       <DonateCard />
+      <DetailedView />
       <SiteFooter />
     </main>
   );
