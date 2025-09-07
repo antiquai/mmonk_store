@@ -8,7 +8,7 @@ import { section } from 'framer-motion/client';
 
 const DonateCard = () => {
   return (
-    <section className='flex justify-between items-center p-15'>
+    <section className='flex justify-between items-center p-15 sm:max-w-[420px] m'>
 
         <div className="relative mb-12 text-center">
             <motion.h2
@@ -30,15 +30,15 @@ const DonateCard = () => {
             </motion.p>
         </div>
 
-        <div className="relative z-10 mx-auto max-w-7xl px-6">
-            <div className="flex-1 flex justify-center items-center">
+        <div className="relative z-10 mx-auto max-w-7xl px-6 ">
+            <div className="flex-1 flex justify-center items-center ">
                 <Tilt glareEnable={true} glareMaxOpacity={0.3} scale={1.05} tiltMaxAngleX={10} tiltMaxAngleY={10}>
                     <motion.div
-                    className="w-[400px] h-[250px] rounded-2xl p-4 bg-white backdrop-blur-xl border border-white/40 shadow-lg text-black overflow-hidden"
+                    className="w-[400px] h-[250px] rounded-2xl p-4 bg-white backdrop-blur-xl border border-white/40 shadow-lg text-black overflow-hidden sm:p-4"
                     whileHover={{ scale: 1.05 }}
                     >
 
-                    <div className="absolute z-0 top-0 right-0" >
+                    <div className="absolute z-0 top-0 right-0 sm:w-24" >
                     <Image
                         src="/dragon_mm.jpg" // Replace with your actual image path
                         alt="Card background"
@@ -121,3 +121,4 @@ const DonateCard = () => {
 }
 
 export default DonateCard
+

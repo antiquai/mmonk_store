@@ -33,7 +33,7 @@ export const PRODUCTS: Product[] = [
     price: 29,
     image: '/design/des_6.png',
     tag: "New",
-    colors: ["#0a0a0a"],
+    colors: ["#f5f5f4"],
     sizes: ["M","L", "XL"],
   },
     {
